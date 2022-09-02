@@ -64,7 +64,7 @@ const CustomDrawerContent = ({ navigation }) => {
                     <View
                         style={{ marginLeft: SIZES.radius }}>
                         <Text style={{ color: COLORS.white, ...FONTS.h3 }}>{dummyData.myProfile?.name}</Text>
-                        <Text style={{ color: COLORS.white, ...FONTS.body4 }}>View your profile</Text>
+                        <Text style={{ color: COLORS.white, ...FONTS.body4 }}>{dummyData.myProfile?.slogan}</Text>
                     </View>
                 </TouchableOpacity>
 
@@ -76,9 +76,9 @@ const CustomDrawerContent = ({ navigation }) => {
                     }}
                 >
                     <CustomDrawerItem label={constants.navigationLabels.home} icon={icons.home} />
-                    <CustomDrawerItem label={constants.navigationLabels.specials} icon={icons.love} />
-                    <CustomDrawerItem label={constants.navigationLabels.bookings} icon={icons.menu} />
-                    <CustomDrawerItem label={constants.navigationLabels.discounts} icon={icons.wallet} />
+                    <CustomDrawerItem label={constants.navigationLabels.combos} icon={icons.favourite} />
+                    <CustomDrawerItem label={constants.navigationLabels.menu} icon={icons.menu} />
+                    <CustomDrawerItem label={constants.navigationLabels.trackOrder} icon={icons.location} />
 
                     {/* line divider */}
 
@@ -116,7 +116,7 @@ const CustomDrawer = () => {
         <View
             style={{
                 flex: 1,
-                backgroundColor: COLORS.darkPink2
+                backgroundColor: COLORS.black
             }}>
             <Drawer.Navigator
                 drawerType='slide'
@@ -130,7 +130,7 @@ const CustomDrawer = () => {
                 sceneContainerStyle={{
                     backgroundColor: 'transparent'
                 }}
-                initialRouteName='MainLayout'
+                initialRouteName='Home'
                 drawerContent={props => {
 
                     setTimeout(() => {

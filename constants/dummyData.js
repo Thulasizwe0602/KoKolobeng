@@ -1,9 +1,10 @@
 import { icons, images } from "./";
 
 const myProfile = {
-    name: "NailzByJabs",
-    profile_image: images.profile,
-    address: "No. 88, Jln Padungan, Kuching"
+    name: "Ko Kolobeng",
+    profile_image: images.logo,
+    address: "Ext 7, 11780 Sundowns Street, Mohlakeng",
+    slogan: "Best pork in Jozi"
 }
 
 const categories = [

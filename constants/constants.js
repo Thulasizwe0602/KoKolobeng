@@ -16,9 +16,9 @@ const screens = {
 const navigationLabels = {
     main_layout: "MainLayout",
     home: "Home",
-    specials: "Specials",
-    discounts: "Discounts",
-    bookings: "Bookings",
+    combos: "Combos",
+    trackOrder: "Track your order",
+    menu: "Menu",
     signout: "Sign Out",
     recommendAfriend: "Recommend",
     settings: "Settings",
