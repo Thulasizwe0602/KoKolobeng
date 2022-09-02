@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import { createDrawerNavigator, DrawerContentScrollView } from '@react-navigation/drawer';
-import { MainLayout } from '../screens';
+import { MainLayout, Home } from '../screens';
 import { COLORS, FONTS, SIZES, constants, icons, dummyData } from '../constants'
 
 import Animated from 'react-native-reanimated';
@@ -144,8 +144,8 @@ const CustomDrawer = () => {
                     )
                 }}
             >
-                <Drawer.Screen name='MainLayout'>
-                    {props => <MainLayout {...props}
+                <Drawer.Screen name='Home'>
+                    {props => <Home {...props}
                         drawerAnimationStyle={animatedStyle} />}
                 </Drawer.Screen>
 
