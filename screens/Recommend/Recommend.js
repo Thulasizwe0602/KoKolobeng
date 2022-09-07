@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import Animated from 'react-native-reanimated';
 
-const Home = ({drawerAnimationStyle}) => {
+const Recommend = ({drawerAnimationStyle}) => {
     return (
         <Animated.View
             style={{
@@ -17,9 +17,9 @@ const Home = ({drawerAnimationStyle}) => {
                 ...drawerAnimationStyle
             }}
         >
-            <Text>Home</Text>
+            <Text>Recommend a friend</Text>
         </Animated.View>
     )
 }
 
-export default Home;
+export default Recommend;

@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import Animated from 'react-native-reanimated';
 
-const Home = ({drawerAnimationStyle}) => {
+const Settings = ({drawerAnimationStyle}) => {
     return (
         <Animated.View
             style={{
@@ -17,9 +17,9 @@ const Home = ({drawerAnimationStyle}) => {
                 ...drawerAnimationStyle
             }}
         >
-            <Text>Home</Text>
+            <Text>Settings</Text>
         </Animated.View>
     )
 }
 
-export default Home;
+export default Settings;

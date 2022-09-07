@@ -6,8 +6,20 @@ import Home from "./Home/Home"
 // Search
 import Search from "./Search/Search";
 
-// Cart
-import CartTab from "./Cart/CartTab"
+// Combos
+import Combos from "./Combos/Combos";
+
+// Menu
+import Menu from "./Menu/Menu";
+
+// TrackOrder
+import TrackOrder from "./TrackOrder/TrackOrder";
+
+// Recommend
+import Recommend from "./Recommend/Recommend";
+
+// Settings
+import Settings from "./Settings/Settings";
 
 // Favourite
 import Favourite from "./Favourite/Favourite";
@@ -19,7 +31,9 @@ export {
     MainLayout,
     Home,
     Search,
-    CartTab,
-    Favourite,
-    Notification
+    Combos,
+    Menu,
+    TrackOrder,
+    Recommend,
+    Settings
 }
